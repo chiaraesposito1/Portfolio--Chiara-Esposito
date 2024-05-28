@@ -364,7 +364,7 @@ h5{
     }
   }
   
-/*typing*/
+/*typing
 display: block;
 white-space: wrap;
 border-right: 4px solid;
@@ -380,4 +380,15 @@ width: 0;
 20%{
 border: transparent;
 }
+}*/
+
+.img-proyecto{
+    width:100%;
+    height: 180px;
+    
+}
+.video{
+    position: relative;
+    width:100%;
+    
 }
