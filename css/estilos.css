@@ -1,0 +1,383 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Playfair Display", serif;
+}
+.playfair-display .title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body{
+    background-image: linear-gradient(black 0%, rgb(31, 14, 31)  15%, rgb(56, 26, 56)  25%, rgb(22, 14, 22) 45%, rgb(31, 14, 31) 65%, rgb(43, 16, 43) 80%, black 100%);
+    color: white;
+}
+
+.scroll{
+    width:150px;
+}
+.navbar{
+    margin: 20px 40px;
+    padding: 10px 40px;
+    background-color: rgb(20, 11, 20);
+    border: 1px solid rgb(31, 14, 31);
+    border-radius: 20px;
+}
+.nav-link{
+    width:150px;
+    font-size: 1rem;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    &:hover{
+        color:  rgb(255, 190, 138);
+        border-bottom: 1px solid rgb(255, 190, 138);
+    }
+}
+.text-subrayado{
+    border-bottom: 1px solid rgb(255, 190, 138);
+    padding-bottom: 5px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.portada{
+    padding: 20px;
+    height: 90vh;
+}
+.img-portada{
+    width:400px;
+    height:400px; 
+}
+.saludo{
+    font-size: 2.3rem;
+}
+.title{
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    width: 90%;  
+    letter-spacing: 1px;
+
+    .text-color{
+        color:rgb(255, 190, 138);
+        font-family: "Playfair Display", serif;
+    }}
+.text-portada{
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: justify;
+    padding-top: 20px;
+    width:80%;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-portada1{
+    background-color:rgb(255, 190, 138) ;
+    color: rgb(31, 14, 31);
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width:20%;
+
+    &:hover{
+        background-color: rgb(151, 112, 79);
+        color: white;
+    }
+}
+
+.btn-portada2{
+    border: 2px solid rgb(255, 190, 138);
+    color:white;
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+
+    &:hover{
+        border: 2px solid rgb(151, 112, 79);
+        background-color: rgb(151, 112, 79);
+        font-weight: 600;
+    }
+}
+/*SOBRE MI*/
+
+.p-sobremi{
+    text-align: justify;
+    line-height: 30px;
+    width:90%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title-sobremi{
+    font-size: 3rem;
+    padding-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+
+    .text-color{
+        color:rgb(255, 190, 138);
+        font-family: "Playfair Display", serif;
+    }
+}
+.p-introduccion{
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 0.774);
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+}
+.img-sobremi{
+    width:300px;
+    height: 400px;
+}
+
+/*HABILIDADES*/
+  .habilidades{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    .text-color{
+        color:rgb(255, 190, 138);
+        font-family: "Playfair Display", serif;
+    }
+}
+.text-habilidades{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    width:70%;
+    padding-bottom: 20px;
+}
+.habilidades-p{
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 0.774);
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+    border: 1px solid rgba(255, 255, 255, 0.774);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.card-habilidades{
+    padding:8px 20px;
+    border: 3px solid rgb(31, 14, 31) ; 
+    background-color: rgb(245, 206, 175);
+    width:350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.p-habilidades{
+    font-size: 0.85rem;
+    line-height: 20px;
+    padding: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title-img{
+    color: rgb(56, 26, 56) ;
+}
+.img-card{
+    width:100px;
+    height: 100px;
+}
+
+/*HERRAMIENTAS*/
+.title-trabajo-herramientas{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+}
+.text-color{
+        color:rgb(255, 190, 138);       
+}
+.herramientas{
+    text-align: right;
+}
+.text-herramientas{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px 0px;
+}
+.herramientas-btn{
+    background-color: rgb(255, 190, 138);
+    color: rgb(31, 14, 31);
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    &:hover{
+        background-color: rgb(151, 112, 79);
+        color: white;
+    }
+}
+.icon:hover{
+    transform: scale(1.1, 1.05);
+    transition-duration: 2s;
+}
+
+
+/*CONTACTO*/
+.contacto{
+.text-color{
+    color:rgb(255, 190, 138);
+    font-family: "Playfair Display", serif;
+   
+}}
+
+.text-contacto{
+    color:white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    width: 90%;
+    text-align: justify;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fila-1{
+    padding-left: 20px;
+    width:260px;
+    margin-bottom: 10px;
+}
+.fila-2{
+    padding-left: 20px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.formulario{
+    width: 60%;
+    padding:10px 30px;
+}
+.title-trabajo{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.btn-enviar{
+    background-color:rgb(255, 190, 138) ;
+    color: rgb(31, 14, 31);
+    text-decoration: none;
+    padding:10px 50px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    &:hover{
+        background-color: rgb(151, 112, 79);
+        color: white;
+    }
+}
+
+/*PROYECTOS*/
+.proyecto{
+    width:350px;
+    height: 400px;
+    background-color: aliceblue;
+    color:black;
+    border-radius: 20px;
+}
+.img11{
+    width:350px;
+    height: 180px;
+}
+.proyecto-body{
+    color:black;
+}
+.text-proyecto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.card-title{
+    border: 1px solid rgb(185, 132, 51);;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color:rgb(185, 132, 51);
+}
+
+
+
+/*FOOTER*/
+footer{
+   
+    a{
+    text-decoration: none;
+    color:white;
+    list-style: none;
+    margin-bottom: 10px;
+ }
+ li{
+    margin-bottom: 15px;
+    list-style: none;
+    text-align: left;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+        color:rgb(185, 132, 51);
+    }
+ }
+
+.columna1{
+    text-align: left;
+    margin-right:20px;
+    padding: 10px;
+}
+
+h5{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.f-derechos{
+    font-size: 0.8rem;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+
+}
+}
+
+.underline--magical {
+    background-image: linear-gradient(120deg, rgb(185, 132, 51) 0%, rgba(185, 131, 51, 0.377) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    &:hover {
+      background-size: 100% 88%;
+    }
+  }
+  
+/*typing*/
+display: block;
+white-space: wrap;
+border-right: 4px solid;
+width:15ch;
+animation: typing 2s steps(16), blink .5s step-end alternate ;
+overflow: hidden;
+@keyframes typing{
+from{
+width: 0;
+}
+}
+@keyframes blink{
+20%{
+border: transparent;
+}
+}
