@@ -1,369 +1,474 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family: "Playfair Display", serif;
+.portada {
+  padding: 20px 30px;
+  margin-bottom: 30px;
 }
-.playfair-display .title{
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-  }
-
-body{
-    background-image: linear-gradient(black 0%, rgb(31, 14, 31)  15%, rgb(56, 26, 56)  25%, rgb(22, 14, 22) 45%, rgb(31, 14, 31) 65%, rgb(43, 16, 43) 80%, black 100%);
-    color: white;
+.portada .img-portada {
+  width: 380px;
+  height: 380px;
 }
-
-.scroll{
-    width:150px;
+.portada .saludo {
+  font-size: 2.3rem;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
-.navbar{
-    margin: 20px 40px;
-    padding: 10px 40px;
-    background-color: rgb(20, 11, 20);
-    border: 1px solid rgb(31, 14, 31);
-    border-radius: 20px;
+.portada .title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  width: 90%;
+  letter-spacing: 1px;
 }
-.nav-link{
-    width:150px;
-    font-size: 1rem;
-    text-align: center;
-    color:white;
-    text-decoration: none;
-    letter-spacing: 1px;
-    &:hover{
-        color:  rgb(255, 190, 138);
-        border-bottom: 1px solid rgb(255, 190, 138);
-    }
+.portada .title .text-color {
+  color: rgb(252, 197, 152);
+  font-family: "Playfair Display", serif;
 }
-.text-subrayado{
-    border-bottom: 1px solid rgb(255, 190, 138);
-    padding-bottom: 5px;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.portada .text-portada {
+  font-size: 1.05rem;
+  line-height: 30px;
+  text-align: justify;
+  padding-top: 20px;
+  width: 80%;
+  letter-spacing: 1px;
+  font-weight: 200;
 }
-.portada{
-    padding: 20px;
-    height: 90vh;
+.portada .btn-portada1 {
+  background-color: rgb(252, 197, 152);
+  color: rgb(31, 14, 31);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 20%;
 }
-.img-portada{
-    width:400px;
-    height:400px; 
+.portada .btn-portada1:hover {
+  background-color: rgb(187, 146, 112);
+  color: white;
 }
-.saludo{
-    font-size: 2.3rem;
+.portada .btn-portada2 {
+  border: 2px solid rgb(187, 146, 112);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-right: 20px;
+  letter-spacing: 1px;
 }
-.title{
-    font-family: "Playfair Display", serif;
-    font-size: 3rem;
-    width: 90%;  
-    letter-spacing: 1px;
-
-    .text-color{
-        color:rgb(255, 190, 138);
-        font-family: "Playfair Display", serif;
-    }}
-.text-portada{
-    font-size: 1rem;
-    line-height: 30px;
-    text-align: justify;
-    padding-top: 20px;
-    width:80%;
-    letter-spacing: 1px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.portada .btn-portada2:hover {
+  background-color: rgb(187, 146, 112);
+  font-weight: 600;
 }
 
-.btn-portada1{
-    background-color:rgb(255, 190, 138) ;
-    color: rgb(31, 14, 31);
-    text-decoration: none;
-    padding:10px 30px;
-    border-radius: 20px;
-    margin-right: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    width:20%;
-
-    &:hover{
-        background-color: rgb(151, 112, 79);
-        color: white;
-    }
-}
-
-.btn-portada2{
-    border: 2px solid rgb(255, 190, 138);
-    color:white;
-    text-decoration: none;
-    padding:10px 30px;
-    border-radius: 20px;
-    margin-right: 20px;
-    letter-spacing: 1px;
-
-    &:hover{
-        border: 2px solid rgb(151, 112, 79);
-        background-color: rgb(151, 112, 79);
-        font-weight: 600;
-    }
-}
 /*SOBRE MI*/
+.p-introduccion {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.774);
+  letter-spacing: 1px;
+  font-weight: 200;
+}
 
-.p-sobremi{
-    text-align: justify;
-    line-height: 30px;
-    width:90%;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.title-sobremi{
-    font-size: 3rem;
-    padding-bottom: 10px;
-    font-family: "Playfair Display", serif;
-    letter-spacing: 1px;
-
-    .text-color{
-        color:rgb(255, 190, 138);
-        font-family: "Playfair Display", serif;
-    }
-}
-.p-introduccion{
-    font-size: 1rem;
-    color:rgba(255, 255, 255, 0.774);
-    letter-spacing: 1px;
-    font-family: "Playfair Display", serif;
-}
-.img-sobremi{
-    width:300px;
-    height: 400px;
+.p-sobremi {
+  text-align: justify;
+  line-height: 30px;
+  width: 100%;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin: 10px;
+  padding: 20px;
 }
 
 /*HABILIDADES*/
-  .habilidades{
-    font-size: 3rem;
-    letter-spacing: 1px;
-    color: white;
-    font-family: "Playfair Display", serif;
-    .text-color{
-        color:rgb(255, 190, 138);
-        font-family: "Playfair Display", serif;
-    }
-}
-.text-habilidades{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    line-height: 25px;
-    color: white;
-    font-size: 1rem;
-    text-align: center;
-    width:70%;
-    padding-bottom: 20px;
-}
-.habilidades-p{
-    font-size: 1rem;
-    color:rgba(255, 255, 255, 0.774);
-    letter-spacing: 1px;
-    font-family: "Playfair Display", serif;
-    border: 1px solid rgba(255, 255, 255, 0.774);
-    border-radius: 10px;
-    padding: 10px 20px;
-}
-.card-habilidades{
-    padding:8px 20px;
-    border: 3px solid rgb(31, 14, 31) ; 
-    background-color: rgb(245, 206, 175);
-    width:350px;
-    height: 300px;
-    border-radius: 20px;
-}
-.p-habilidades{
-    font-size: 0.85rem;
-    line-height: 20px;
-    padding: 10px;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.title-img{
-    color: rgb(56, 26, 56) ;
-}
-.img-card{
-    width:100px;
-    height: 100px;
+.p-habilidades {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.774);
+  letter-spacing: 1px;
 }
 
-/*HERRAMIENTAS*/
-.title-trabajo-herramientas{
-    font-size: 2.5rem;
-    letter-spacing: 1px;
-    text-align: right;
+.card-habilidades {
+  padding: 10px 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.575);
+  background-color: rgb(248, 215, 188);
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
 }
-.text-color{
-        color:rgb(255, 190, 138);       
+.card-habilidades .title-img {
+  color: rgb(56, 26, 56);
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
-.herramientas{
-    text-align: right;
+.card-habilidades .text-habilidades {
+  font-size: 0.85rem;
+  line-height: 20px;
+  padding: 10px 5px;
+  color: black;
 }
-.text-herramientas{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    line-height: 30px;
-    color: white;
-    font-size: 1.2rem;
-    padding: 20px 0px;
+.card-habilidades .img-card {
+  width: 100px;
+  height: 100px;
 }
-.herramientas-btn{
-    background-color: rgb(255, 190, 138);
-    color: rgb(31, 14, 31);
-    text-decoration: none;
-    padding:10px 30px;
-    border-radius: 20px;
-    margin: 20px 0px;
-    font-weight: 600;
-    letter-spacing: 1px;
-
-    &:hover{
-        background-color: rgb(151, 112, 79);
-        color: white;
-    }
-}
-.icon:hover{
-    transform: scale(1.1, 1.05);
-    transition-duration: 2s;
-}
-
 
 /*CONTACTO*/
-.contacto{
-.text-color{
-    color:rgb(255, 190, 138);
-    font-family: "Playfair Display", serif;
-   
-}}
-
-.text-contacto{
-    color:white;
-    letter-spacing: 1px;
-    line-height: 30px;
-    width: 90%;
-    text-align: justify;
-    padding-bottom: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.columna-contacto {
+  width: 90%;
+  height: 220px;
+  background-color: rgb(56, 26, 56);
+  transform: translateX(10%);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.575);
 }
-.fila-1{
-    padding-left: 20px;
-    width:260px;
-    margin-bottom: 10px;
+.columna-contacto a {
+  text-decoration: none;
+  color: white;
 }
-.fila-2{
-    padding-left: 20px;
-    height: 400px;
-    margin-bottom: 10px;
+.columna-contacto li {
+  list-style: none;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 1.3rem;
+  margin: 20px;
+  padding-bottom: 5px;
+  font-weight: 200;
 }
-.formulario{
-    width: 60%;
-    padding:10px 30px;
-}
-.title-trabajo{
-    font-size: 2rem;
-    letter-spacing: 1px;
-    padding-bottom: 10px;
-}
-.btn-enviar{
-    background-color:rgb(255, 190, 138) ;
-    color: rgb(31, 14, 31);
-    text-decoration: none;
-    padding:10px 50px;
-    border-radius: 20px;
-    margin-right: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
-
-    &:hover{
-        background-color: rgb(151, 112, 79);
-        color: white;
-    }
+.columna-contacto li:hover {
+  color: rgb(252, 197, 152);
+  cursor: pointer;
 }
 
-/*PROYECTOS*/
-.proyecto{
-    width:350px;
-    height: 400px;
-    background-color: aliceblue;
-    color:black;
-    border-radius: 20px;
-}
-.img11{
-    width:350px;
-    height: 180px;
-}
-.proyecto-body{
-    color:black;
-}
-.text-proyecto{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 25px;
-    letter-spacing: 1px;
-}
-.card-title{
-    border: 1px solid rgb(185, 132, 51);;
-    border-radius: 20px;
-    padding: 10px 25px;
-    color:rgb(185, 132, 51);
+.text-contacto {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 30px;
+  width: 90%;
+  text-align: justify;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 10px;
+  padding: 20px;
 }
 
+.fab {
+  margin: 10px 5px 10px 10px;
+  padding: 10px 5px 20px 20px;
+  font-size: 2.5rem;
+  color: white;
+}
+.fab:hover {
+  cursor: pointer;
+  color: rgb(252, 197, 152);
+}
 
+/*MIS PROYECTOS*/
+.proyectos {
+  font-family: "Playfair Display", serif;
+}
+
+.img-agro {
+  background-color: rgb(20, 1, 15);
+  width: 500px;
+  height: 420px;
+  border-radius: 20px;
+}
+.img-agro a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.img-agro .agro {
+  width: 500px;
+  height: 220px;
+  border-radius: 20px;
+}
+.img-agro .text-proyecto {
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  font-size: 0.9rem;
+}
+.img-agro .card-title {
+  color: white;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  padding: 10px 0px;
+}
+.img-agro .title-proyecto {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  padding: 5px 0px;
+  color: rgb(187, 146, 112);
+}
+.img-agro .video-dvc {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-family: "DM Sans", sans-serif;
+}
+
+.playfair-display .title {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background-image: linear-gradient(black 0%, rgb(31, 14, 31) 15%, rgb(56, 26, 56) 25%, rgb(22, 14, 22) 45%, rgb(31, 14, 31) 65%, rgb(43, 16, 43) 80%, black 100%);
+  color: white;
+}
+
+.navbar {
+  margin: 20px 40px;
+  padding: 10px 40px;
+  background-color: rgb(20, 11, 20);
+  border: 1px solid rgba(221, 170, 221, 0.301);
+  border-radius: 20px;
+}
+.navbar .home {
+  width: 45px;
+  height: 45px;
+}
+.navbar .nav-link {
+  width: 150px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.navbar .nav-link:hover {
+  color: rgb(252, 197, 152);
+  border-bottom: 1px solid rgb(252, 197, 152);
+}
 
 /*FOOTER*/
-footer{
-   
-    a{
-    text-decoration: none;
-    color:white;
-    list-style: none;
-    margin-bottom: 10px;
- }
- li{
-    margin-bottom: 15px;
-    list-style: none;
-    text-align: left;
-    font-size: 1.2rem;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    &:hover{
-        color:rgb(185, 132, 51);
-    }
- }
-
-.columna1{
-    text-align: left;
-    margin-right:20px;
-    padding: 10px;
+footer a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer li {
+  margin-bottom: 15px;
+  list-style: none;
+  text-align: left;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 300;
+}
+footer li:hover {
+  color: rgb(252, 197, 152);
+  cursor: pointer;
+}
+footer .columna1 {
+  text-align: left;
+  width: 400px;
+}
+footer h5 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+footer .f-derechos {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+footer .scroll {
+  width: 180px;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
-h5{
-    font-size: 1.5rem;
-    padding-bottom: 10px;
+.title-sobremi {
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  width: 100%;
 }
-.f-derechos{
-    font-size: 0.8rem;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
+.title-sobremi .text-color {
+  color: rgb(252, 197, 152);
+  font-family: "Playfair Display", serif;
+}
 
+.text-color {
+  color: rgb(252, 197, 152);
 }
+
+.bold {
+  font-weight: 500;
+}
+
+.text-subrayado {
+  border-bottom: 1px solid rgb(252, 197, 152);
+  padding-bottom: 5px;
 }
 
 .underline--magical {
-    background-image: linear-gradient(120deg, rgb(185, 132, 51) 0%, rgba(185, 131, 51, 0.377) 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
-    &:hover {
-      background-size: 100% 88%;
-    }
+  background-image: linear-gradient(120deg, rgb(252, 197, 152) 0%, rgba(185, 131, 51, 0.377) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 96%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical:hover {
+  background-size: 100% 88%;
+}
+
+.active-link {
+  color: rgb(252, 197, 152);
+}
+
+.portada-sobremi {
+  margin: 40px;
+  padding: 20px;
+}
+.portada-sobremi h1 {
+  font-size: 3rem;
+  padding: 20px 20px 10px;
+  margin: 40px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}
+.portada-sobremi h1 .text-color {
+  font-family: "Playfair Display", serif;
+}
+.portada-sobremi p {
+  padding-top: 10px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+.portada-sobremi .flecha-icon {
+  width: 90px;
+  height: 90px;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0%);
   }
-  
+  50% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.title-estudio {
+  font-size: 2.3rem;
+  font-family: "Playfair Display", serif;
+}
+
+.cursos-carreras {
+  height: 230px;
+  padding: 10px;
+  text-align: left;
+}
+.cursos-carreras .fecha-estudio {
+  font-family: "Playfair Display", serif;
+  color: rgb(252, 197, 152);
+  font-size: 1.5rem;
+}
+.cursos-carreras .title-carrera {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.cursos-carreras .text-estudio {
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 200;
+}
+
+.linea {
+  width: 70px;
+  margin: 20px;
+  height: 70vh;
+  border-right: 2px solid white;
+}
+
+.text-sobremi {
+  text-align: justify;
+  line-height: 30px;
+  width: 100%;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin: 10px;
+  padding: 20px;
+}
+
+/*HOBBIES IDIOMAS HERRAMIENTAS*/
+.title-educacion {
+  font-size: 2.5rem;
+  color: rgb(252, 197, 152);
+  font-family: "Playfair Display", serif;
+}
+
+.text-skills {
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 1.2rem;
+  padding: 0px 40px;
+  width: 800px;
+  font-weight: 300;
+  transform: translateX(25%);
+}
+
+.logo-herramientas {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+.logo-herramientas .progress-icon {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.title-extras {
+  font-size: 2.2rem;
+  padding: 15px;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.title-hobbies {
+  font-size: 1.1rem;
+  padding: 20px 10px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.text-idiomas {
+  list-style: none;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.progress-icon {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.icon-hobbies {
+  width: 180px;
+}
+
 /*typing
 display: block;
 white-space: wrap;
@@ -382,13 +487,4 @@ border: transparent;
 }
 }*/
 
-.img-proyecto{
-    width:100%;
-    height: 180px;
-    
-}
-.video{
-    position: relative;
-    width:100%;
-    
-}
+/*# sourceMappingURL=estilos.css.map */

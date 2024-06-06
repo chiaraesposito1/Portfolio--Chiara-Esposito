@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-family: "DM Sans", sans-serif;
+}
+.playfair-display .title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body{
+    background-image: linear-gradient(black 0%, rgb(31, 14, 31)  15%, rgb(56, 26, 56)  25%, rgb(22, 14, 22) 45%, rgb(31, 14, 31) 65%, rgb(43, 16, 43) 80%, black 100%);
+    color: white;
+}
+.navbar{
+    margin: 20px 40px;
+    padding: 10px 40px;
+    background-color: rgb(20, 11, 20);
+    border: 1px solid rgba(221, 170, 221, 0.301);
+    border-radius: 20px;
+    .home{
+        width: 45px;
+        height: 45px;
+    }
+    .nav-link{
+        width:150px;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 300;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        &:hover{
+            color:  rgb(252, 197, 152);
+            border-bottom: 1px solid rgb(252, 197, 152);
+        }
+}
+}
+/*FOOTER*/
+footer{
+    a{
+    text-decoration: none;
+    color:white;
+    list-style: none;
+    margin-bottom: 10px;
+    }
+    li{
+        margin-bottom: 15px;
+        list-style: none;
+        text-align: left;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 300;
+        &:hover{
+            color:rgb(252, 197, 152);
+            cursor: pointer;
+        }
+    }
+    .columna1{
+        text-align: left;
+        width:400px;
+    }
+    h5{
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    .f-derechos{
+        font-size: 0.8rem;  
+        letter-spacing: 1px;
+    }
+    .scroll{
+        width:180px;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+}
+
+.title-sobremi{
+    font-size: 4rem;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+    width: 100%;
+    .text-color{
+        color:rgb(252, 197, 152);
+        font-family: "Playfair Display", serif;
+    }
+}
+.text-color{
+    color: rgb(252, 197, 152);
+}
+.bold{
+    font-weight: 500;
+}
+.text-subrayado{
+    border-bottom: 1px solid rgb(252, 197, 152);
+    padding-bottom: 5px;  
+}
+.underline--magical {
+    background-image: linear-gradient(120deg, rgb(252, 197, 152) 0%, rgba(185, 131, 51, 0.377) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 96%;
+    transition: background-size 0.25s ease-in;
+    &:hover {
+      background-size: 100% 88%;
+    }
+  }

@@ -1,0 +1,126 @@
+.active-link{
+    color:  rgb(252, 197, 152);
+}
+.portada-sobremi{
+    margin:40px;
+    padding: 20px ;
+    h1{
+        font-size: 3rem;
+        padding: 20px 20px 10px;
+        margin: 40px;
+        font-family: "Playfair Display", serif;
+        letter-spacing: 1px;
+        .text-color{
+            font-family: "Playfair Display", serif;
+        }
+    }
+    p{
+        padding-top: 10px;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+    .flecha-icon{
+        width:90px;
+        height: 90px;
+        animation: float 2s ease-in-out infinite;
+    }
+}
+@keyframes float{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(15%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.title-estudio{
+    font-size: 2.3rem;
+    font-family: "Playfair Display", serif;
+}
+.cursos-carreras{
+    height: 230px;
+    padding:10px;
+    text-align: left;
+    .fecha-estudio{
+        font-family: "Playfair Display", serif;
+        color:rgb(252, 197, 152);
+        font-size: 1.5rem;
+    }
+    .title-carrera{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+    .text-estudio{
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-weight: 200;
+    }
+}
+.linea{
+    width:70px;
+    margin: 20px;
+    height: 70vh;
+    border-right: 2px solid white;
+}
+.text-sobremi{
+    text-align: justify;
+    line-height: 30px;
+    width:100%;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin:10px;
+    padding:20px;
+}
+/*HOBBIES IDIOMAS HERRAMIENTAS*/
+.title-educacion{
+    font-size: 2.5rem;
+    color: rgb(252, 197, 152) ;
+    font-family: "Playfair Display", serif;
+}
+.text-skills{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    padding:0px 40px;
+    width:800px;
+    font-weight: 300;
+    transform: translateX(25%);
+}
+.logo-herramientas{
+    width: 70px;
+    height: 70px;
+    margin:10px;
+    .progress-icon{
+        font-size: 1rem;
+        padding:10px;
+    }
+}
+.title-extras{
+    font-size: 2.2rem;
+    padding:15px;
+    color: white ;
+    font-family: "Playfair Display", serif;
+}
+.title-hobbies{
+    font-size: 1.1rem;
+    padding: 20px 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.text-idiomas{
+    list-style: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding:10px;
+}
+.progress-icon{
+    font-size: 1rem;
+    padding:10px;
+}
+.icon-hobbies{
+    width:180px;
+}
